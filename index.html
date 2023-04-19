@@ -3,24 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mary Colors</title>
+  <link rel="icon" type="image/x-icon" href="/Images/Mary.png" />
+  
+
+ 
+
+
 	<!-- Enlace a la hoja de estilos de Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-M+Wia2uEwyh3y7q++U6rCv6gR61lRnB7cW/fnn5CvXlmP5b5z5TD5w01bAaNCfVnDULHxvnE2m8u/KQVcq1LjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="/styles.css">
 	<!-- Enlace a la hoja de estilos personalizada -->
 	
-    <link rel="stylesheet" href="/styles.css">
+    
+    <style>
+      /* Estilos para pantalla pequeña */
+      @media (max-width: 767px) {
+        body {
+          background-color: blue;
+        }
+      }
+    
+      /* Estilos para pantalla grande */
+      @media (min-width: 768px) {
+        body {
+          background-color: rgb(239, 235, 252);
+        }
+      }
+    </style>
 </head>
+
+
 <body>
 	<!-- Encabezado de la página -->
 	<header>
-    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #fff;">
+    <nav class="navbar navbar-expand-sm navbar-light" class="navbar navbar-expand-lg navbar-light bg-light" class="flex-column" style="background-color: #fff;">
       <div class="container justify-content-between">
         <a class="navbar-brand order-1" href="#">
-          <img id="logo" src="Mary.png" alt="Logo de Mary" style="height: 80px; width: auto;">
+          <img id="logo" src="/Images/Mary.png"  alt="Logo de Mary" class="img-fluid"style="height: 80px; width: auto;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +66,17 @@
 <style>
     .jumbotron .display-4 {
       font-family: 'Playfair Display', serif;
+      color: #5f0633;
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
     }
+    .lead {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+  }
   </style>
 
 		<div class="jumbotron jumbotron-fluid", text-align: cente>
@@ -55,110 +88,194 @@
 	</header>
 
 	<!-- Contenido principal de la página -->
-	<main>
-		<section class="container my-5", id="blog">
-			<h2 class="text-center">Mis Novedades</h2>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12 my-3">
-					<div class="card">
-						<img class="card-img-top" src="MujerMaquillandose.png" alt="Mujer Maquillandose">
-						<div class="card-body">
-							<h5 class="card-title">Cómo combinar tus sombras de ojos con tus prendas</h5>
-							<p class="card-text">Si quieres lograr un look de maquillaje perfecto, es importante saber cómo combinar tus sombras de ojos con tus prendas. Para lograr una armonía en tu look, debes considerar el color y la intensidad de tus sombras y combinarlas con los tonos de tus prendas. Por ejemplo, si usas tonos neutros como marrones o grises en tu ropa, puedes experimentar con sombras más llamativas como dorados o rosas. </p>
-							<a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" class="btn btn-primary"> Leer más </a> 
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 my-3">
-					<div class="card">
-						<img class="card-img-top" src="maquillaje.jpg" alt="Foto de Maquillaje">
-						<div class="card-body">
-							<h5 class="card-title">La Importancia Del Color </h5> 
-                            <p class="card-text"> Los colores tienen el poder de influir en nuestro estado de ánimo y en nuestra apariencia física. Por ejemplo, un color cálido como el rojo puede hacernos sentir más seguros y seguros de nosotros mismos, mientras que un tono fresco como el azul puede ser tranquilizante y relajante. Por lo tanto, la elección de los colores en nuestro maquillaje puede tener un impacto emocional y físico en nosotros mismos y en los demás.</p> 
-                            <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" class="btn btn-primary"> Leer más </a> 
-                            </div> 
-                            </div> 
-                            </div> 
-                            <div class="col-lg-4 col-md-6 col-sm-12 my-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="uñas.jpg" alt="Foto de Uñas">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Uñas Modernas </h5> 
-                                        <p class="card-text"> Lo primero que debe hacer es seleccionar los tonos que desea mezclar. Puede optar por tonos complementarios, que se encuentran en lados opuestos del círculo cromático, o por tonos parecidos que creen una transición suave. Una vez que tengas tus colores, debes aplicar una capa base de esmalte transparente para proteger tus uñas y ayudar a que el esmalte dure más tiempo.</p> 
-                                        <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" class="btn btn-primary"> Leer más </a> 
-                                        </div>
-                                     </div> 
-                                 </div> 
-                            </div> 
-
-
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 col-sm-12 my-3">
-                                    <div class="card">
-                                        <img class="card-img-top" src="Cabello espectacular.png" alt="Foto del cabello Rojo">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Cabello Espectacular</h5>
-                                            <p class="card-text">La técnica de balayage todavía domina la escena de la coloración del cabello para 2023, pero se espera que evolucione y se adapte a las necesidades cambiantes de los consumidores. En lugar de grandes contrastes entre luces y sombras, las mezclas más suaves y sutiles serán la tendencia en el futuro. Los reflejos balayage se han vuelto más sutiles y se mezclan en el cabello natural, creando un flujo armonioso de color. Esta técnica de balayage sutil permitirá que el cabello crezca fácilmente sin la necesidad de retoques frecuentes. </p>
-                                            <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" class="btn btn-primary"> Leer más </a> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 my-3">
-                                    <div class="card">
-                                        <img class="card-img-top" src="tips de belleza.jpg" alt="Piel Hermosa">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Cuidado De La Piel </h5> 
-                                            <p class="card-text"> A medida que se acerca el verano, muchos de nosotros buscamos formas de mantener nuestra piel con un aspecto saludable y vibrante. El cuidado de la piel es una parte importante de cualquier rutina de belleza. Cuidar tu piel puede ayudar a prevenir signos de envejecimiento, daño solar y más. Aquí hay algunos consejos para mantener su piel luciendo lo mejor posible. En primer lugar, asegúrese de usar siempre protector solar. La exposición al sol puede causar quemaduras solares, arrugas y otros signos de envejecimiento prematuro. Elija un protector solar con un SPF de al menos 30 y vuelva a aplicar cada dos horas o después de nadar o sudar. Asegúrese de aplicar protector solar en todas las áreas expuestas de la piel, incluida la cara, el cuello y las manos.</p> 
-                                            <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" class="btn btn-primary"> Leer más </a> 
-                                            </div> 
-                                            </div> 
-                                            </div> 
-                                            <div class="col-lg-4 col-md-6 col-sm-12 my-3">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="Mama.png" alt="Dia de la Madre">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Para Mamá </h5> 
-                                                        <p class="card-text"> ¡Celebra el día de la madre con los mejores regalos de nuestra tienda en línea! Sorprende a mamá con nuestra amplia selección de opciones de regalo para todas las personalidades y gustos.
-
-                                                          Para la mamá aventurera, tenemos mochilas y artículos deportivos. Para la mamá que disfruta de momentos de relajación, ofrecemos artículos para el cuidado personal, así como productos para el hogar y la decoración.
-                                                          
-                                                          Y no olvides nuestra sección de joyería, donde encontrarás la pieza perfecta para hacerte sentir especial. ¡Aprovecha nuestras promociones del día de la madre y demuéstrale a mamá cuánto la quieres! Visita nuestra tienda en línea ahora.</p> 
-                                                        <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" class="btn btn-primary"> Leer más </a> 
-                                                        </div>
-                                                     </div> 
-                                                 </div> 
-                                            </div>   
-
-
-                                            <div class="container text-center" >
-                                              <img src="QR.jpeg" alt="Codigo QR" style="width: 200px;" >
-                                            </div>
 
 
 
+  <main>
+
+
+    <style>
+      div.card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      
+    </style>
+
+    
+
+    <section class="container-fluid my-5" id="blog">
+      <h2 class="text-center">Mis Novedades</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div class="card">
+            <img class="card-img-top" 50px src="/Images/uñas.jpg" alt="Foto de Uñas">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Uñas Modernas</h5>
+              <p class="card-text" >Lo primero que debe hacer es seleccionar los tonos que desea mezclar. Puede optar por
+                tonos complementarios, que se encuentran en lados opuestos del círculo cromático, o por tonos parecidos
+                que creen una transición suave. Una vez que tengas tus colores, debes aplicar una capa base de esmalte
+                transparente para proteger tus uñas y ayudar a que el esmalte dure más tiempo. Además de seleccionar los tonos, es importante cuidar tus uñas para mantenerlas saludables y fuertes.
+                 Para ello, es recomendable mantener una dieta equilibrada y consumir alimentos ricos en nutrientes como biotina, vitamina E y hierro.
+              </p>
+              <a href="https://portafolio.digital/co/catalogo/eb06039a-e72e-4dc3-8a37-5c05b5db56c8"
+                class="btn btn-primary"> Leer más </a>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/Cabello espectacular.png" alt="Foto del cabello Rojo">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Cabello Espectacular </h5>
+              <p class="card-text"> La técnica de balayage todavía domina la escena de la coloración del cabello para 2023,
+                pero se espera que evolucione y se adapte a las necesidades cambiantes de los consumidores. En lugar de
+                grandes contrastes entre luces y sombras, las mezclas más suaves y sutiles serán la tendencia en el
+                futuro. Los reflejos balayage se han vuelto más sutiles y se mezclan en el cabello natural, creando un
+                flujo armonioso de color. Esta técnica de balayage sutil permitirá que el cabello crezca fácilmente sin la
+                necesidad de retoques frecuentes. Ingresa Aquí y entérate de los productos que tenemos para ti en cualquier
+              momento del año.</p>
+              <a href="https://portafolio.digital/co/catalogo/f3c8bfe5-d46e-4987-b6b8-29da217649cf"
+                class="btn btn-primary"> Leer más </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid my-5" id="blog">
+      <h2 class="text-center"></h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div class="card">
+            <img class="card-img-top" style="height: 480px" src="/Images/MujerMaquillandose.png" alt="Mujer Maquillandose">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Cómo combinar tus sombras de ojos con tus prendas</h5>
+              <p class="card-text">¿Quieres lucir fabulosa y elegante con tus sombras de ojos? Combínalas con tus prendas y alcanza un look único y cautivador.
+                 Comienza por elegir sombras adecuadas para tu piel y cabello, en tonos neutros o brillantes según la ocasión. 
+                Si usa prendas de colores llamativos, elige sombras en tonos pastel. Para un estilo clásico, combina sombras oscuras con ropa monocromática. 
+                Si quieres hacer una declaración de moda, utiliza sombras brillantes e igualmente prendas llamativas. Recuerda que la clave para combinar tus sombras de ojos y prendas es la consistencia y el equilibrio. Así que,
+                 ¡explora y diviértete mientras creas tu estilo único! Has clic aquí.
+              </p>
+              <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22"
+                class="btn btn-primary"> Leer más </a>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div class="card">
+            <img class="card-img-top" style="height: 480px" src="/Images/ImagenHogarColor.jpg"  alt="Foto de hogar">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">La Importancia Del Color En El Hogar</h5>
+              <p class="card-text"> La elección del color en la decoración de tu hogar es crucial, ya que influye en la atmósfera y en la sensación que se tiene en cada habitación. El color puede hacer que un espacio se sienta incluso más grande o más pequeño, más tranquilo o más enérgico, y puede afectar tu estado de ánimo. Es por eso que es importante elegir los colores adecuados para tu hogar.
+                Los tonos cálidos como el rojo, el naranja y el amarillo pueden hacer que una habitación se sienta más acogedora y cómoda. Por otro lado, los tonos fríos como el azul y el verde pueden crear una sensación de calma y relajación. Además, la combinación de colores puede ayudar a generar un ambiente equilibrado y armonioso en tu hogar.
                 
+          </p>
+              <a href="https://portafolio.digital/co/catalogo/c50df892-d33f-4526-8b1e-b7594da38f29"
+                class="btn btn-primary"> Leer más </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                            <div class="container text-center">
-                                <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" target="_blank" style="color: #520512; font-size: 24px;">Bienvenida a la belleza en línea. Haz click aquí ¡Y Explora!</a>
-                              </div>
-                              
-
-                            <div class="container text-center", id="icons">
-                                <a href="https://wa.me/573053544363" target="_blank" style="color: #09993e;"  class="icon whatsapp" ><i class="fab fa-whatsapp" ></i></a>
-                                <a href="https://www.instagram.com/marycolors2023/?igshid=MTIyMzRjYmRlZg%3D%3D" target="_blank" style="color: #c41274;"class="icon instagram"><i class="fab fa-instagram"></i></a>
-                            </div>
-                               
-                            </main>
-                            
-                            <!-- Pie de página -->
-                            <footer class="bg-light py-3">
-                                <div class="container text-center">
-                                    <p>&copy; 2023 Mary Colors. Todos los derechos reservados.</p>
-                                </div>
-                            </footer>
-                            
-                            <!-- Scripts de Bootstrap -->
-                            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-                            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.3/dist/umd/popper-core.min.js"></script>
-                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
-                        </body>
+    <section class="container-fluid my-5" id="blog">
+      <h2 class="text-center"></h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div class="card">
+            <img class="card-img-top" style="height: 480px" src="/Images/tips de belleza.jpg" alt="Piel Hermosa">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">Cuidado De La Piel</h5>
+              <p class="card-text">A medida que se acerca el verano, muchos de nosotros buscamos formas de mantener
+                nuestra piel con un aspecto saludable y vibrante. El cuidado de la piel es una parte importante de
+                cualquier rutina de belleza. Cuidar tu piel puede ayudar a prevenir signos de envejecimiento, daño solar y
+                más. Aquí hay algunos consejos para mantener su piel luciendo lo mejor posible. En primer lugar, asegúrese
+                de usar siempre protector solar. La exposición al sol puede causar quemaduras solares, arrugas y otros
+                signos de envejecimiento prematuro. Elija un protector solar con un SPF de al menos 30 y vuelva a aplicar
+                cada dos horas o después de nadar o sudar. Asegúrese de aplicar protector solar en todas las áreas
+                expuestas de la piel.
+              </p>
+              <a  href="https://portafolio.digital/co/catalogo/d2aafc6a-0505-4cd4-b417-cf915aedae9f"
+                class="btn btn-primary" > Leer más </a>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div class="card">
+            <img class="card-img-top" style="height: 480px" src="Images/Mama.png" alt="Dia de la Madre">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center">¡Para Mamá!</h5>
+              <p class="card-text"> El Día de la Madre se acerca y todos queremos demostrarle a esa persona tan especial lo mucho que la queremos y apreciamos. Si aún no sabes qué regalarle, no te preocupes, ¡tenemos algunas ideas para ti!
+                Las joyas son un regalo clásico para el Día de la Madre. Un collar o unos pendientes elegantes pueden hacer que cualquier madre se siente hermosa y valorada.
+                Otro gran regalo son los productos de belleza. Un set de cuidado de la piel de alta calidad o un perfume favorito son regalos que todas las madres pueden disfrutar.
+                Si tu madre es amante de la tecnología, un nuevo teléfono móvil, una tablet o un smartwatch pueden ser excelentes opciones para sorprenderla en su día. ! Conoce más haciendo clic aquí¡
+                </p>
+              <a href="https://portafolio.digital/co/catalogo/d1454a95-d8f2-46cb-b734-ac09966bb501"
+                class="btn btn-primary"> Leer más </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+   
+  
+  
+        
+  
+  
+      <div class="container text-center">
+        <img src="Images/QR.jpeg" alt="Codigo QR" style="width: 200px;">
+      </div>
+  
+  
+  
+  
+  
+      <div class="container text-center">
+        <a href="https://portafolio.digital/co/catalogo/29a4ea56-d0a6-490b-bdf4-ab064e40cd22" target="_blank"
+          style="color: #520512; font-size: 24px;">Bienvenida a la belleza en línea. Haz clic aquí ¡Y Explora!</a>
+      </div>
+  
+  
+      <style>
+        #icons {
+          text-align: center;
+          font-size: 3rem;
+          margin: 0 rem;
+        }
+      </style>
+  
+  
+      <div class="container text-center" , id="icons">
+        <a href="https://wa.me/573053544363" target="_blank" style="color: #09993e;" class="icon whatsapp"><i
+            class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/marycolors2023/?igshid=MTIyMzRjYmRlZg%3D%3D" target="_blank"
+          style="color: #c41274;" class="icon instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+  
+  </main>
+  
+  <!-- Pie de página -->
+  <footer class="bg-light py-3">
+    <div class="container text-center">
+      <p>&copy; 2023 Mary Colors. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+  <!-- Scripts de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.3/dist/umd/popper-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
+  </body>
